@@ -1,0 +1,73 @@
+
+
+@keyframes navarro{
+    0%{
+        background-image: url("/imagenes/deporte.jpg");
+    }
+    25%{
+        background-image: url("/imagenes/jota.jpg");
+
+    }
+    50%{
+
+        background-image: url("/imagenes/d.jpg");
+
+    }
+    75%{
+        background-image: url("/imagenes/papapa.jpg");
+    }
+    100%{
+        background-image: url("/imagenes/aprobe.jpg");
+    }
+
+
+
+
+
+}
+
+@media(min-width:850px){
+    .header{
+        position: relative;
+        width: 97%;
+
+    }
+    .header_contenido{
+       flex-direction:row;
+    }
+}
+
+@media(min-width:850px){
+    header{
+        position: relative; /*Pantalla por defecto, posicionada en la parte superior*/
+        width: 100%;
+    }
+    header .contenedor-principal{
+        flex-direction: row; /*Filas*/
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row; /*Filas*/
+        padding-bottom: 0;
+    }
+    .carousel-inner img{
+        width: 100%;
+        height: 600px;
+        background-size: cover; /*no estirar*/
+    }
+    /* Clase 06-09 */
+    #somos-blogar .contenedor-cuerpo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #somos-blogar .texto{
+        width: 56%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
