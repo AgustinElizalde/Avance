@@ -53,7 +53,7 @@ function showCarrito() {
                                 ${product.nombre}
                             </div>
                             <div class="producPrice">
-                                <b>$${product.precio} </b>
+                                <b>$ ${product.precio} </b>
                             </div>`
         const total = document.getElementById("total");
         const nodos = document.createElement("b");
@@ -65,7 +65,7 @@ function showCarrito() {
           );
         console.log(totalAPagar)
         
-        total.innerHTML = `<b> Total:$${totalAPagar} </b>`        
+        total.innerHTML = `<b> Total:${totalAPagar} </b>`        
                     
         divLista.appendChild(nodo);
                     
